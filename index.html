@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commix - Command Injection Exploiter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-terminal"></i>
+            <span>Commix</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#conceitos">Conceitos</a></li>
+            <li><a href="#ferramenta">A Ferramenta</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Commix</h1>
+            <h2>Command Injection Exploiter</h2>
+            <p>Uma ferramenta automatizada de teste de penetração para detecção e exploração de vulnerabilidades de injeção de comandos</p>
+            <a href="#sobre" class="cta-button">Saiba Mais</a>
+        </div>
+        <div class="hero-animation">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="terminal-content">
+                    <span class="typing-text">commix -u "http://exemplo.com/page.php?id=1"</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre o Commix</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>O Commix é uma ferramenta de teste de penetração de código aberto que automatiza o processo de detecção e exploração de vulnerabilidades de injeção de comandos em aplicações web.</p>
+                <p>Desenvolvido em Python, o Commix oferece uma interface de linha de comando poderosa e flexível para testadores de segurança e pesquisadores.</p>
+            </div>
+            <div class="features">
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Segurança</h3>
+                    <p>Identifica vulnerabilidades críticas</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Automação</h3>
+                    <p>Processo automatizado de teste</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Flexibilidade</h3>
+                    <p>Múltiplas opções de exploração</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="conceitos" class="concepts">
+        <h2>Conceitos Fundamentais</h2>
+        <div class="concepts-grid">
+            <div class="concept-card">
+                <h3>O que é Injeção de Comandos?</h3>
+                <p>Uma vulnerabilidade que permite a execução de comandos arbitrários no sistema operacional do servidor através de uma aplicação web vulnerável.</p>
+            </div>
+            <div class="concept-card">
+                <h3>Como Funciona?</h3>
+                <p>O atacante insere comandos maliciosos em parâmetros de entrada que são processados pelo sistema operacional do servidor.</p>
+            </div>
+            <div class="concept-card">
+                <h3>Impacto</h3>
+                <p>Pode resultar em comprometimento completo do servidor, acesso não autorizado e roubo de dados sensíveis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ferramenta" class="tool">
+        <h2>A Ferramenta</h2>
+        <div class="tool-content">
+            <div class="tool-features">
+                <h3>Principais Características</h3>
+                <ul>
+                    <li>Detecção automática de vulnerabilidades</li>
+                    <li>Múltiplos vetores de injeção</li>
+                    <li>Suporte a diferentes sistemas operacionais</li>
+                    <li>Interface de linha de comando intuitiva</li>
+                    <li>Documentação detalhada</li>
+                </ul>
+            </div>
+            <div class="tool-demo">
+                <div class="code-block">
+                    <pre><code># Instalação
+git clone https://github.com/commixproject/commix.git
+cd commix
+
+# Uso básico
+python commix.py -u "http://exemplo.com/page.php?id=1"
+
+# Opções avançadas
+python commix.py -u "http://exemplo.com/page.php?id=1" --batch --random-agent</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <div class="contact-content">
+            <form class="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Commix - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
