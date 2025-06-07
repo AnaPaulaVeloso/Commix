@@ -85,22 +85,14 @@ Para contribuir com o projeto:
 4. Faça o Push para a Branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## 👥 Autores
 
-- Seu Nome - *Desenvolvimento* - [Seu GitHub](https://github.com/seu-usuario)
+- Ana Paula Veloso - *Desenvolvimento* - [Seu GitHub]([https://github.com/seu-usuario](https://github.com/AnaPaulaVeloso))
 
 ## 🙏 Agradecimentos
 
 - [Commix Project](https://github.com/commixproject/commix) - Pela inspiração e documentação
 - [Font Awesome](https://fontawesome.com/) - Pelos ícones utilizados
 - [Google Fonts](https://fonts.google.com/) - Pelas fontes utilizadas
-
-## 📞 Contato
-
-Ana Paula Veloso - [@Github](https://twitter.com/seu_twitter) - email@exemplo.com
 
 Link do Projeto: [https://github.com/seu-usuario/commix-website]([https://github.com/seu-usuario/commix-website](https://github.com/AnaPaulaVeloso/Commix])
