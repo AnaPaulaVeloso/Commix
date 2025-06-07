@@ -87,7 +87,7 @@ Para contribuir com o projeto:
 
 ## 👥 Autores
 
-- Ana Paula Veloso - *Desenvolvimento* - [Seu GitHub]([https://github.com/seu-usuario](https://github.com/AnaPaulaVeloso))
+- Ana Paula Veloso - *Desenvolvimento* - ([https://github.com/AnaPaulaVeloso])
 
 ## 🙏 Agradecimentos
 
@@ -95,4 +95,4 @@ Para contribuir com o projeto:
 - [Font Awesome](https://fontawesome.com/) - Pelos ícones utilizados
 - [Google Fonts](https://fonts.google.com/) - Pelas fontes utilizadas
 
-Link do Projeto: [https://github.com/seu-usuario/commix-website]([https://github.com/seu-usuario/commix-website](https://github.com/AnaPaulaVeloso/Commix])
+Link do Projeto:([https://github.com/AnaPaulaVeloso/Commix])
